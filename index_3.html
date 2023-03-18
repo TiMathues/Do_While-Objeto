@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<!-- introdução do conteúdo -->
+<h2>Um contador de números conta os números desdo falor inicial até o final, valores já
+    pré-definidos.</h2>
+<p>Veja o exemplo a baixo do número um até dez:</p>
+   <script>
+       //let é a variavel onde nós inserimos o valor ou
+       //  guardamos o valor dentro dessa váriavel
+       let num_inicial = 1;
+       //while é o inicio no laço onde nós marcamos onde começa e onde termina,
+       //  se algum critério não estabelecer a função, ela não será iniciada,
+       //  nesse caso a função num_inicial. 
+       while (num_inicial <=100) {
+           //document.write é onde será inserido os nossos dados ou respostas
+           //  no HTML, o br é usado para quebrar a linha e não ficar tudo junto
+           document.write("Número "+ num_inicial + "<br>");
+           //aqui é a formula para a execução do loop, fazendo com que ele
+           //  fique calculando e gerenado respostas até atingir o valor definido
+           num_inicial = num_inicial + 1;
+       }
+   </script>
+
+</body>
+</html>
